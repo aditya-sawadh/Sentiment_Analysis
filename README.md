@@ -1,6 +1,6 @@
 # Sentiment_Anlaysis
-This repository is takes a supervised learning approach towards sentiment analysis.
-We build a Logistic regression and Naiye Bayes classifiers for sentiment analysis of tweets and IMDB movie reviews.
+This project in this repository takes a supervised learning approach towards sentiment analysis.
+We build a Logistic regression and Naiye Bayes classifier models for sentiment analysis of tweets and IMDB movie reviews.
 
 The  feature vectors for classifiers are generated using two approaches
 
