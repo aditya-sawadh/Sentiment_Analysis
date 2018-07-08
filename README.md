@@ -3,8 +3,9 @@ This project takes a supervised learning approach towards sentiment analysis.We 
 
 The  feature vectors for classifiers are generated using two approaches
 
-1 A more traditional NLP technique where the features are simply “important” words and the feature vectors are 
-simple binary vectors  2  Doc2Vec technique where document vectors are learned via artificial neural networks
+* A more traditional NLP technique where the features are simply “important” words and the feature vectors are 
+simple binary vectors  
+*  Doc2Vec technique where document vectors are learned via artificial neural networks
 
 ## Datasets
 The IMDB reviews and tweets can be found in the data folder. These have already been divided
@@ -18,4 +19,3 @@ The overall distribution of labels is balanced (450k pos and 450k neg).
 The sentiment_analysis.py contains the code for this project. The python packages that you will need for this project are scikitlearn, nltk, and gensim.
 As a point of reference, [Stanfords Recursive Neural Network code ](https://nlp.stanford.edu/sentiment/code.html)
 produced an accuracy of 51.1% on the IMDB dataset and 59.4% on the Twitter data.
-
